@@ -1,0 +1,69 @@
+body {
+    font-size: ;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0px auto;
+    font-family: 'Satisfy', cursive;
+    color: #66BFBF;
+}
+p {
+    margin: 0px;
+    font-size: 1.2rem;
+}
+.top-container {
+    background-color: #B9F3FC;
+    padding-top: 100px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;/* 16px = 100% = 1rem*/
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+}
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+    
+.web {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 20%;
+    top: 60px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 25%;
+}
+
+.skills {
+    width: 50%;
+    margin: 100px auto 100px auto;
+}
+
+.skill-row {
+
+}
