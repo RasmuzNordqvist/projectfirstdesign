@@ -22,7 +22,7 @@ p {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;/* 16px = 100% = 1rem*/
+    font-size: 4rem;/* 16px = 100% = 1rem*/
     color: #66BFBF;
     font-weight: normal;
 }
@@ -30,21 +30,36 @@ h2 {
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+    font-size: 2rem;
 }
 
 a {
     color: #11999E;
 }
+
+hr {
+    border-style: none;
+    border-top: dotted 0.5em;
+    width: 10%;
+    color: #EAF6F6;
+    margin: 150px auto 150px auto;
 }
 
-.middle-container {
 
+.middle-container {
+    margin: 50px auto 50px auto;
 }
 
 .bottom-container {
-
+    background-color: #66BFBF;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-    
+
+.portrait {
+    width: 15%;
+}
+
 .web {
     text-decoration: underline;
 }
@@ -58,12 +73,63 @@ a {
     position: absolute;
     left: 25%;
 }
+.computer-image { 
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
 
-.skills {
-    width: 50%;
-    margin: 100px auto 100px auto;
+.chess-image{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
 }
 
 .skill-row {
-
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    
 }
+
+.btn {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 46px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #11999E;;
+    background-image: -webkit-linear-gradient(top, #11999E;, #11999E;);
+    background-image: -moz-linear-gradient(top, #11999E;, #11999E;);
+    background-image: -ms-linear-gradient(top, #11999E;, #11999E;);
+    background-image: -o-linear-gradient(top, #11999E;, #11999E;);
+    background-image: linear-gradient(to bottom, #11999E;, #11999E;);
+    text-decoration: none;
+  }
+
+  .contact-seperation {
+      margin-bottom: 70px;
+  }
+
+  .footer-link {
+      margin: auto 40px auto 40px;
+      text-decoration: none;
+  }
+
+  .copyright {
+      margin-top: 50px;
+      color: #EAF6F6;
+  }
